@@ -1,4 +1,5 @@
-from telegram import Update, ParseMode
+from telegram import Update
+from telegram.constants import ParseMode
 from telegram.ext import ContextTypes
 from config import logger
 from genai_client import generate_content
